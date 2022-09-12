@@ -30,7 +30,7 @@ You can use "Breast_Genes_Cases.mat" file contain 573 breast cancer mutated gene
 The entry point of the code is the script Topological_Feature.m
 To run the Topological_Feature.m, use the following arguments in MATLAB command line:
 
-"[Feature_Matrix,LS]=Topological_Feature(Gene_breast)"
+"[Feature_Matrix,laplac,LS]=Topological_Feature(Gene_breast)"
 
 
 
@@ -38,7 +38,9 @@ The output files  contain two MATLAB files:
 
 Feature_Matrix : each array of feature matrix  x_{ij} represents and the j-th feature of the i-th genes.
 
-LS  :  The Laplacian Score for each feature.
+laplac  : The Laplacian Score for each feature
+
+LS  :  The Laplacian Score for each gene.
 
 ===============================================================================
 
