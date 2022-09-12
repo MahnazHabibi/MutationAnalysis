@@ -23,14 +23,14 @@ for example:
 Gene(1).gene='TP53'
 Gene(1).case= {'TCGA-37-5819' , 'TCGA-37-A5EL' , 'TCGA-37-A5EM' , 'TCGA-37-A5EN'}
 
-You can use "Genes_Cases.mat" file contain 573 cancer mutated genes and related their cases.
+You can use "Breast_Genes_Cases.mat" file contain 573 breast cancer mutated genes and related their cases.
 
 ==============
 
 The entry point of the code is the script Topological_Feature.m
 To run the Topological_Feature.m, use the following arguments in MATLAB command line:
 
-"[Feature_Matrix,LS]=Topological_Feature(Gene)"
+"[Feature_Matrix,LS]=Topological_Feature(Gene_breast)"
 
 
 
